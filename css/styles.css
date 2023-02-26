@@ -1,0 +1,180 @@
+body {
+  margin: 0px;
+  text-align: center;
+
+}
+
+
+h1 {
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Rochester', cursive;
+  line-height: 2;
+
+}
+
+h2 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 2.5rem ;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #11999E;
+}
+
+a {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #11999E;
+  margin: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  line-height: 2;
+}
+/* when the element has a width and we want to center
+more info on:
+h1 {
+
+  margin: 0 auto 0 auto;
+  width: 10%
+
+}
+*/
+
+
+.top-container {
+  background-color: rgba(190, 249, 251, 0.5);
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  margin-top: 10px;
+
+}
+
+.mountain {
+  display: inline-block;
+}
+
+.define {
+  text-decoration: underline;
+}
+
+.cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+
+}
+
+.cloud2 {
+  position: absolute;
+  left: 170px;
+  top: 400px;
+
+}
+.fa-laptop-code {
+  color: rgb(13, 68, 17);
+  font-size: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.coding-skill {
+  width: 120px;
+  float: left;
+  margin-right: 30px;
+}
+
+.design-skill {
+  width: 120px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-caption {
+  font-size: 0.8rem;
+  color: rgba(168, 168, 168, 0.54);
+  clear: left;
+}
+.design-caption {
+  font-size: 0.8rem;
+  color: rgba(168, 168, 168, 0.54);
+  clear: left;
+}
+
+hr {
+  border: dotted #9a9d9d 6px;
+  border-bottom: none;
+
+  width: 4%;
+  margin: 100px auto;
+}
+
+.made-by {
+  color: #EAF6F6;
+  font-size: 0,75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.fa-solid.fa-paw {
+  color: #FF8100 !important;
+  font-size: 2rem;
+}
